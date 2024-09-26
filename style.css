@@ -1,0 +1,46 @@
+body {
+    background-color: whitesmoke;
+}
+
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #c0ffee;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+
+    padding: 30px;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+}
+
+#submit {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.equation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.num {
+    font-size: 48px;
+}
+
+.operation {
+    font-size: 32px;
+}

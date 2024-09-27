@@ -1,0 +1,15 @@
+{
+  "name": "flashdeck",
+  "module": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "http-server ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "http-server": "^14.1.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

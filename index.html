@@ -5,26 +5,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Flash Deck</title>
-    <script src="script.js" defer></script>
+    <script src="script.js" type="module" defer></script>
     <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="outer">
         <h1>Flash Deck</h1>
-        <div class="card">
-            <div class="equation">
-                <div class="num" id="first">9</div>
-                <div class="operation">X</div>
-                <div class="num" id="second">9</div>
+        <div class="card-outer">
+            <div class="card">
+                <div class="equation">
+                    <div class="num" id="first">9</div>
+                    <div class="operation">X</div>
+                    <div class="num" id="second">9</div>
+                </div>
+                <input class="guess" id="guess" />
             </div>
-            <input class="guess" id="guess" />
+            <div class="card-back hidden">
+                <div class="card-back-content">Hello There</div>
+                <div class="answer"></div>
+            </div>
         </div>
         <button id="submit">Submit</button>
         <button id="next">Next Card</button>
 
-        <div class="answer"></div>
-        <div class="message"></div>
+        <div class="message-container hidden">
+            <div class="message">Something</div>
+        </div>
     </div>
 </body>
 

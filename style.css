@@ -75,7 +75,7 @@ button {
 
 .message-container {
     position: fixed;
-    bottom: 24px;
+    top: 10px;
 
     border: 4px solid black;
     z-index: 1;
